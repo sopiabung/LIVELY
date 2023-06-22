@@ -1,0 +1,23 @@
+.dropdown-content {
+    display: none;
+}
+
+
+.nav-item:hover, .dropdown-btn:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+}
+
+
+.dropdown-content {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family:var(--body-font-family);
+}
+
+
+/**/
+.container .navbar-brand {
+	font-size: 35px;
+}

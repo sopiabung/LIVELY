@@ -1,0 +1,416 @@
+#wrap > main {
+    margin: 200px auto;
+    width: 600px;
+    /* height: 100vh; */
+}
+
+/* 피드 영역 */
+.feed_more_box {
+  	height: 650px;
+    width: 600px;
+    display: grid;
+    grid-template-rows: 1fr 7fr 2fr 1fr;
+    border: 1px solid grey;
+    background-color: rgb(26, 26, 26);
+    border-radius: 1%;
+    margin-bottom: 40px;
+}
+
+.feed_content_more_box {
+  height: 100px;
+  width: 568px;
+}
+.feed_box {
+    height: 600px;
+    width: 600px;
+    display: grid;
+    grid-template-rows: 1fr 7fr 2fr 1fr;
+    border: 1px solid grey;
+    background-color: rgb(26, 26, 26);
+    border-radius: 1%;
+    margin-bottom: 40px;
+}
+
+.content-line {
+	width: 100%;
+  word-break: break-all;
+}
+
+.feed-content {
+	height: 60px;
+	
+}
+
+
+.feed_done {
+  opacity: 0.3;
+}
+
+.feed_hidden {
+	display: none;
+}
+
+#feed-image {
+	width: 100%;
+}
+
+#content-area {
+	width: 100%;
+}
+
+
+/* #profile_area, #content_area {
+    background-color: rgb(195, 207, 217);
+} */
+
+/* 프로필 사진/이름/닉네임 영역 */
+#profile_area {
+    display: flex;
+}
+
+/* 프로필 사진 */
+#profile_img img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 5px 3px 5px 5px;
+}
+
+/* 프로필 이름/닉네임 */
+#profile_box {
+    margin: 5px;
+}
+#profile_name {
+    font-weight: bolder;
+    font-size: 13px;
+    color: aliceblue;
+}
+#profile_nick {
+    font-size: 10px;
+    color: aliceblue;
+}
+
+/* 거래완료 버튼 */
+#feed_status {
+	margin-top: 5px;
+	margin-left: 390px;
+}
+
+#feed_select_button, .dropdown {
+	margin-left: 425px;
+	color: white;
+	font-size: 25px;
+}
+
+/* 수정 / 삭제 드롭다운 */
+.dropdown {
+  position : relative;
+  display : inline-block;
+}
+
+.dropbtn {
+  border-radius : 2px;
+  background-color: rgb(26, 26, 26);
+  font-weight: 700;
+  color : white;
+  padding : 12px;
+  width :20px;
+  text-align: center;
+  margin: -10px 0 0 -15px;
+  cursor : pointer;
+  font-size : 20px;
+}
+.dropdown-edit-delete {
+  display : none;
+  position : absolute;
+  z-index : 1; /*다른 요소들보다 앞에 배치*/
+  font-weight: 500;
+  background-color: white;
+  min-idth: 100px;
+}
+
+.dropdown-edit-delete a {
+  display : block;
+  text-decoration : none;
+  color : rgb(37, 37, 37);
+  font-size: 17px;
+  font-weight: 520;
+  text-align: center;
+  padding : 15px 5px 15px 0;
+}
+
+.dropdown_toggle .dropdown-edit-delete {
+  display: block;
+  width: 90px;
+}
+
+
+/*  */
+
+#feed_select_button:hover {
+	cursor: pointer;
+}
+
+.feed_status_text {
+	width: 75px;
+	text-align: center;
+	background-color: rgb(39, 39, 39);
+  color: rgb(177, 176, 176);
+  border: 1px solid rgb(177, 176, 176);
+  border-radius: 5px;
+}
+
+
+/* 거래중만 보기 체크박스 */
+#feed_checkbox {
+	margin: 30px 0 -30px 0;
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+}
+
+#feed_checkbox span {
+	color: white;
+}
+
+/* 피드 사진 */
+.carousel-item  {
+    /* position: absolute; */
+     width: 100%; 
+    padding: 0;
+     /* height: 100%; */
+    /* width: 800px;
+    height: 310px; */
+    /* object-fit: cover; */
+}
+
+
+/* 내용 영역 */
+#content_area a, #content_area span {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 13px;
+    color: aliceblue;
+}
+
+#content_area h7 {
+	padding-left: 10px;
+    padding-top: 10px;
+    color: aliceblue;
+}
+
+#content_area {
+    margin-top: -4px;
+}
+
+
+/* CHAT 버튼 */
+#chat_area button {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.5rem 1.1rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: #078735;
+    color: ghostwhite;
+    margin: 5px 0 8px 370px; /* 새로 추가 */
+    width: 75px; /* 새로 추가 */
+    height: 40px; /* 새로 추가 */
+
+   }
+   
+   #chat_area button a {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+   }
+   
+   #chat_area button:hover a {
+    color: black;
+   }
+   
+   #chat_area button::before,
+   #chat_area button::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+   }
+   
+   #chat_area button::before {
+    content: "";
+    background: #3a3a3a;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+   }
+   
+   #chat_area button:hover::before {
+    transform: translate3d(100%, 0, 0);
+   }
+
+	#chat_area {
+		display: flex;
+	}
+
+ /* upload button */
+
+ #upload_button {
+    text-align: end;
+    margin-bottom: 20px;
+   }
+
+   .actual-text, .hover-text {
+    font-size: 20px;
+   }
+
+   /* === removing default button style ===*/
+.button {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+  }
+  
+  /* button styling */
+  .button {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255,255,255,0.6);
+    --animation-color: #078735;
+    /* --fs-size: 2em; */
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  /* this is the text, when you hover on button */
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  /* hover */
+  .button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  }
+   
+
+/* search */
+
+.feed_search_input {
+    max-width: 190px;
+    height: 30px;
+    border: 2px solid transparent;
+    outline: none;
+    border-bottom: 2px solid #3f3f3f;
+    caret-color: #3f3f3f;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-left: -5px;
+    transition: .5s linear;
+    font-family: monospace;
+    letter-spacing: 1px;
+  }
+  
+  .feed_search_input:focus {
+    border-bottom: 2px solid #078735;
+    caret-color: #078735;
+    color: white;
+    /* box-shadow: 4px 4px 10px #895959; */
+  }
+
+  .feed_search_input:blur {
+    color: white
+  }
+  
+  /* .feed_search_input:focus::placeholder {
+    color: #078735;
+  } */
+
+  .feed_search_input {
+    margin-right: 285px;
+  }
+  .hidden_button{
+    display: none;
+  }
+  
+  /* 피드 추가사항 */
+  
+  #search-upload-area {
+  margin-left: 8px;
+  margin-bottom: 20px;
+}
+
+#content_area{
+  margin : 15px;
+}
+
+#profile_area{
+  margin: 15px;
+}
+
+#market_title h2 {
+  color: white;
+  padding-left: 10px;
+}
+
+#market_title {
+	/* text-align: center; */
+	margin-bottom: 50px;
+}
+
+/* content more / hide button */
+
+.more-button-invisible {
+  display: none;
+}
+
+.feed-content-more-button {
+  appearance: none;
+  border: none;
+  background-color: rgb(26, 26, 26);
+  color: #717171;
+}
+
+.feed-content-hide {
+  display: none;
+}
+
+/* page list 숨기기 */
+#page-area {
+	display: none;
+}
+
+/* enrollDate */
+.feedEnrollDate {
+	color: rgb(172, 172, 172);
+	font-size: 13px;
+	margin-left: 20px;
+}
+
