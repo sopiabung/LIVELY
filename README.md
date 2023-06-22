@@ -1,3 +1,22 @@
+정연우 
+﻿현재의 자리보다는 성장을 고집합니다. 긍정에너지로 꿋꿋이 나아가겠습니다.
+
+📧 **Email** : 7d4z7l@gmail.com
+
+💻 **Github :** https://github.com/4z7l
+
+📝 **Blog :** https://4z7l.github.io/
+
+🏫 **세종대학교 소프트웨어학과** (2017.03 ~ 2021.08)
+
+🏢 **NAVER** (2021.07 ~ 2021.09), **NAVER FINANCIAL** (2021.09 ~ )
+
+[ Activities](https://www.notion.so/91f2e4f83dd141538de88a5359f44115?pvs=21)
+
+[ Project](https://www.notion.so/e7518c917f864fd1a34c97733052d17b?pvs=21)
+
+[제목 없는 데이터베이스](https://www.notion.so/5f8033e7e005415aa961c4f94f0aa95a?pvs=21)
+
 📌 goQuality
 고퀄리티 개발 컨텐츠 공유 서비스
 https://go-quality.dev
