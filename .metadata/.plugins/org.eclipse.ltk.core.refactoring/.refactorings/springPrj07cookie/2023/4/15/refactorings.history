@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.kh.app.member.service.Memberservic.java&apos; to &apos;Memberservice.java&apos;&#x0D;&#x0A;- Original project: &apos;springPrj07cookie&apos;&#x0D;&#x0A;- Original element: &apos;com.kh.app.member.service.Memberservic.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.kh.app.member.service.Memberservice.java&apos;" description="Rename compilation unit &apos;Memberservic.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java&lt;com.kh.app.member.service{Memberservic.java" name="Memberservice.java" references="false" stamp="1681269119421" version="1.0"/>
+</session>
