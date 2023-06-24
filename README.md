@@ -25,5 +25,3 @@ Ajax
 jQuery
 JSP
 > 
-
-[ Project](https://www.notion.so/e7518c917f864fd1a34c97733052d17b?pvs=21)
