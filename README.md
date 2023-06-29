@@ -43,4 +43,5 @@ Ajax
 > JavaScript HTML CSS
 jQuery
 JSP
-> 
+
+읽어주셔서 감사합니다 좋은하루 되세요 😊
