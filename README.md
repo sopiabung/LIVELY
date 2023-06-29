@@ -7,7 +7,7 @@
   https://github.com/sopiabung/LIVELY/blob/main/FinalProjectLively/src/main/java/com/lively/member/controller/MemberController.java
 - 회원 service 
   https://github.com/sopiabung/LIVELY/blob/main/FinalProjectLively/src/main/java/com/lively/member/service/MemberService.java
-- 회원 mapper (쿼리문) 
+- 회원 mapper (쿼리문) <br> 
   https://github.com/sopiabung/LIVELY/blob/main/FinalProjectLively/src/main/resources/mybatis/mapper/member-mapper.xml  
 - 질문 게시판 controller 
   https://github.com/sopiabung/LIVELY/blob/main/FinalProjectLively/src/main/java/com/lively/query/controller/QueryController.java
