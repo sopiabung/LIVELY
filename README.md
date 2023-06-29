@@ -4,23 +4,17 @@
 구현코드
 
 - 회원 controller
-FinalProjectLively/src/main/java/com/lively/member/controller/MemberController.java
-
-- 회원 service
-FinalProjectLively/src/main/java/com/lively/member/service/MemberService.java
-
-- 회원 mapper (쿼리문)
-FinalProjectLively/src/main/resources/mybatis/mapper/member-mapper.xml
-
-- 질문게시판 controller
-FinalProjectLively/src/main/java/com/lively/query/controller/QueryController.java
-
-- 질문게시판 service
-FinalProjectLively/src/main/java/com/lively/query/service/QueryService.java
-
-- 질문게시판 mapper (쿼리문)
-FinalProjectLively/src/main/resources/mybatis/mapper/query-mapper.xml
-
+https://github.com/sopiabung/LIVELY/blob/main/FinalProjectLively/src/main/java/com/lively/member/controller/MemberController.java
+- 회원 service 
+https://github.com/sopiabung/LIVELY/blob/main/FinalProjectLively/src/main/java/com/lively/member/service/MemberService.java
+- 회원 mapper (쿼리문) 
+https://github.com/sopiabung/LIVELY/blob/main/FinalProjectLively/src/main/resources/mybatis/mapper/member-mapper.xml
+- 질문 게시판 controller 
+https://github.com/sopiabung/LIVELY/blob/main/FinalProjectLively/src/main/java/com/lively/query/controller/QueryController.java
+- 질문게시판 service 
+https://github.com/sopiabung/LIVELY/blob/main/FinalProjectLively/src/main/java/com/lively/query/service/QueryService.java
+- 질문게시판 mapper (쿼리문) 
+https://github.com/sopiabung/LIVELY/blob/main/FinalProjectLively/src/main/resources/mybatis/mapper/query-mapper.xml
 =
 
 # 정연우
