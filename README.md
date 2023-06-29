@@ -2,7 +2,7 @@
 통장잔고2조의 LIVELY : 함께 살아가는 생동감있는 지역 커뮤니티입니다. <br>
 메인페이지에 실시간 위치기반의 교통량이 표시된 지도 api를 가져왔습니다.
 
-구현코드
+제가 담당한 파트(회원관련 페이지 ,질문 게시판 )의 구현코드입니다.
 
 - 회원 controller
   https://github.com/sopiabung/LIVELY/blob/main/FinalProjectLively/src/main/java/com/lively/member/controller/MemberController.java
