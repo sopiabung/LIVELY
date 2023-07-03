@@ -21,6 +21,9 @@
   https://github.com/sopiabung/LIVELY/blob/main/FinalProjectLively/src/main/resources/mybatis/mapper/query-mapper.xml
 
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+<details>
+<summary>회원가입</summary>
+<div markdown="1">
 
 ```java
 	// 회원가입 화면
@@ -69,6 +72,8 @@
 		}
 	}// idCheck
 ```
+</div>
+</details>
 
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
