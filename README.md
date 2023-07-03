@@ -22,6 +22,56 @@
 
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
+```java
+	// 회원가입 화면
+	@GetMapping("join")
+	public String join(LocationVo locationVo, Model model) {
+//		회원가입 화면에 지역데이터 넣을때 파라미터로 "LocationVo locationVo" 넣기
+      List<LocationVo> locationList = ms.getLocationList(locationVo);
+      
+      model.addAttribute("locationList" , locationList);
+
+		return "member/join";
+		}
+
+	// 회원가입 처리
+	@PostMapping("join")
+	public String join(MemberVo vo,Model model, HttpSession session, LocationVo locationVo) throws Exception {
+		
+		List<LocationVo> locationList = ms.getLocationList(locationVo);
+		model.addAttribute("locationList", locationList);
+		
+		// 서비스
+		int result = ms.join(vo);
+
+		
+		if (result != 1) {
+			// 에러메세지 담아서 forwording 하기
+			session.setAttribute("alertMsg", "회원가입 실패");
+			return "member/join";
+		}
+		session.setAttribute("alertMsg", "회원가입완료! 로그인 해주세요 :)");
+		return "redirect:/member/login";
+
+	}// join
+
+	// 아이디 중복확인
+	@PostMapping("id-check") // url은 케밥케이스로
+	@ResponseBody // 문자 그대로 반환되도록
+	public String idCheck(String id) {
+
+		int result = ms.checkId(id);
+
+		if (result > 0) {
+			return "isDup";
+		} else {
+			return "notDup";
+		}
+	}// idCheck
+```
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
 # 정연우
 🙌🏼 현재의 자리에 안주하기보다는 성장을 고집합니다. 긍정에너지로 꿋꿋이 나아가겠습니다.
 <br>
