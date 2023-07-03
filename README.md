@@ -6,7 +6,7 @@
 메인페이지에 실시간 위치기반의 교통량이 표시된 지도 api를 가져왔습니다.
 
 wiki에 제가 담당한 파트의 코드와 화면을 정리해두었습니다.<br>
-[코드와 화면 보러가기](https://github.com/sopiabung/LIVELY/wiki/1.-%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85,-%ED%9A%8C%EC%9B%90%ED%83%88%ED%87%B4)
+[코드와 화면 보러 wiki로 이동](https://github.com/sopiabung/LIVELY/wiki/1.-%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85,-%ED%9A%8C%EC%9B%90%ED%83%88%ED%87%B4)
 
 
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
