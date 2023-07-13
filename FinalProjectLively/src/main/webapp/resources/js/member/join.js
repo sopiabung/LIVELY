@@ -1,4 +1,3 @@
-//var joinTest = false;
 
 //아이디 중복검사
 function checkDup() {
@@ -72,8 +71,6 @@ pwd2.addEventListener("blur", () => {
   }
 });
 
-
-
 //이메일 형식 유효성 검사
 const email = document.querySelector('input[name="email"]');
 const emailValidity = document.querySelector("#email-validity");
@@ -91,27 +88,6 @@ email.addEventListener("blur", () => {
   }
 });
 
-
-// type을 data로 바꿔서 js 필요없음. (나중에 필요할 수 도 있으니 코드 그대로 둠)
-//생년월일 8자리 검사
-
-// const birth = document.querySelector("#birth");
-// const birthValidity = document.querySelector("#birth-validity");
-// const birthValue = birth.value;
-
-// birth.addEventListener("blur",()=>{
-//   if(birthValue.length != 8){
-//     console.log(birthValue.length);
-//     console.log("외않되");
-//     birthValidity.c = "8글자형식";
-//     birth.style.border = "2px solid red";
-//   }else{
-//     birthValidity.innerText = "";
-//     birth.style.border = "none";
-//   }
-// });
-
-
 // 전화번호 형식 유효성 검사
 const hp = document.querySelector("#hp");
 const hpValidity = document.querySelector("#hp-validity");
@@ -127,25 +103,3 @@ hp.addEventListener("blur",()=>{
    hp.value = "";
  }
 });
-
-// //성별선택 필수
-// const female = document.querySelector('#female').checked;
-// const male = document.querySelector('#male').checked;
-// const genderCodeValidity = document.querySelector('#genderCode-validity');
-
-// if(!female && !male){
-//   genderCodeValidity.innerText = "선택필요";
-// }else{
-//   genderCodeValidity.innerText = "";
-// }
-
-// //지역선택 필수
-// const location = document.querySelector('#location').value;
-// const locationValidity = document.querySelector('#location-validity');
-
-// if(location === "Select"){
-//  locationValidity.innerText = "선택필요";
-// }else{
-//  locationValidity.innerText = "";
-// }
-
