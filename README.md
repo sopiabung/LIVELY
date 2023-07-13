@@ -20,7 +20,7 @@
 - 숭실대학교 실용음악학과 4년제 학사 졸업 (2014.03 ~ 2018.02) 
 - 컴퓨터 활용능력 2급 취득 
  
-## Skill
+## Skills
 
 > JAVA
 Spring framework / Servlet / Mybatis
