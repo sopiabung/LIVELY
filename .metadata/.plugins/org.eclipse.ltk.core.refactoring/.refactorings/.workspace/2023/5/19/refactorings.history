@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename Java project &apos;springPrj18interface&apos; to &apos;springPrj17interface&apos;&#x0D;&#x0A;- Original element: &apos;springPrj18interface&apos;&#x0D;&#x0A;- Renamed element: &apos;springPrj18interface&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;springPrj18interface&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=springPrj18interface" name="springPrj17interface" references="true" stamp="1683765094204" version="1.0"/>
-</session>
